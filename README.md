@@ -7,9 +7,17 @@ Activation Functions are mathematical functions used in neural networks to intro
 
 ---
 
+## 🌐 Live Demo
+
+**👉 [Launch Neural Genesis](https://activation-model-83tbjhtkdhhnpbry53kwxi.streamlit.app/)**
+
+> Runs live in your browser — no installation required.
+
+---
+
 ## 📌 Project Overview
 
-**Neural Genesis** is a dark-themed, interactive learning platform designed to visualize and explain core concepts of neural networks and deep learning. It features live simulations, cinematic AI modules, and data-rich visualizations — all accessible through a sleek **Command Hub** sidebar.
+**Neural Genesis** is a dark-themed, interactive learning platform designed to visualize and explain core concepts of neural networks and deep learning. It features live simulations and data-rich visualizations — all accessible through a sleek **Command Hub** sidebar.
 
 ---
 
@@ -56,11 +64,6 @@ Activation Functions are mathematical functions used in neural networks to intro
 - Explains: Vanishing Gradient vs ReLU Solution
 - Comparison panel with Sigmoid formula vs ReLU formula
 
-### 🎬 Cinema Matrix — AI in Cinema
-- Explores AI applications in the movie industry
-- Topics: AI-generated VFX, deep learning recommendation engines
-- Gallery: Cinematic Vision, Film Reels & AI, Movie Matrix
-
 ---
 
 ## 🗂️ Module Navigation (Command Hub)
@@ -73,13 +76,13 @@ Activation Functions are mathematical functions used in neural networks to intro
 | 🗺️ Neural Map | Data architecture flow |
 | 📊 Matrix View | Topology matrix of functions |
 | 📉 Gradient Flow | Backpropagation analytics |
-| 🎬 Cinema Matrix | AI in cinema module |
+
 
 ---
 
 ## 🛠️ Built With AI Tools
 
-- **AI Image Generation** — Neural brain visuals, gradient flow diagrams, cinematic scenes
+- **AI Image Generation** — Neural brain visuals, gradient flow diagrams
 - **AI Content Writing** — Module descriptions, mathematical explanations
 - **AI Code Assistance** — Interactive components, chart rendering, slider logic
 - **Plotly / Chart.js** — Live graph rendering
@@ -112,7 +115,7 @@ neural-genesis/
 │   ├── neural-map/
 │   ├── matrix-view/
 │   ├── gradient-flow/
-│   └── cinema-matrix/
+
 ├── components/
 │   ├── Sidebar.jsx
 │   ├── ActivationChart.jsx
@@ -150,7 +153,7 @@ streamlit run app.py  # if using Streamlit (port 8501)
 - ✅ Backpropagation & Gradient Flow
 - ✅ Neural Network Layers & Architecture
 - ✅ Data Architecture & AI Pipelines
-- ✅ AI Applications in Cinema & Industry
+
 
 ---
 
