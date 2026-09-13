@@ -36,7 +36,7 @@ Explore activation functions, live neuron simulations, and gradient flow analyti
 | [🎯 Overview](#-overview) | [🚀 Features](#-features) | [🗂️ Module Navigation](#️-module-navigation) |
 | [🛠️ Tech Stack](#️-tech-stack) | [📁 Project Structure](#-project-structure) | [⚙️ Getting Started](#️-getting-started) |
 | [📊 Key Concepts](#-key-concepts-covered) | [🤖 Built With AI Tools](#-built-with-ai-tools) | [🧭 Roadmap](#-roadmap) |
-| [🤝 Contributing](#-contributing) | [📄 License](#-license) | [👤 Credits & Contact](#-credits--contact) |
+| [🤝 Contributing](#-contributing) | [📄 License](#-license) | |
 
 ### 🌐 Live Demo
 
@@ -311,41 +311,7 @@ This project is licensed under the **MIT License** — free to use, modify, and 
 
 <br/>
 
----
-
-## 👤 Credits & Contact
-
 <div align="center">
-
-### 🧠 Made with precision — Neural Genesis
-
-*"Making the mathematics of learning visible."*
-
-<br/>
-
-</div>
-
-**Have a question, found a bug, or want to suggest a module?**
-
-| Channel | Link |
-|:---:|---|
-| 🐛 Report a Bug | [Open an Issue](https://github.com/yourusername/neural-genesis/issues) |
-| 💡 Request a Feature | [Start a Discussion](https://github.com/yourusername/neural-genesis/discussions) |
-| ⭐ Show Support | Star this repo if Neural Genesis helped you learn! |
-
-**Acknowledgments**
-
-| Contribution | Powered By |
-|---|---|
-| 🖼️ Visual Design & Imagery | AI-assisted image generation |
-| ✍️ Content & Explanations | AI-assisted technical writing |
-| 💻 Interactive Components | AI-assisted code generation |
-| 📈 Data Visualization | Plotly.js, Chart.js |
-| 🔢 Math Rendering | KaTeX, MathJax |
-
-<div align="center">
-
-<br/>
 
 <img src="https://img.shields.io/badge/Made_with-🧠_Neural_Genesis-1a1a2e?style=for-the-badge&labelColor=0a0a12&color=00FFFF" alt="Made with Neural Genesis"/>
 
