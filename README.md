@@ -215,16 +215,40 @@ Contributions are welcome! To contribute:
 
 ## 📄 License
 
-This project is licensed under the **MIT License** — see the `LICENSE` file for details.
+This project is licensed under the **MIT License** — free to use, modify, and distribute with attribution. See the `LICENSE` file for full terms.
 
 ---
 
-## 🙌 Credits
+## 💬 Support & Contact
 
-Built with the power of AI tools — image generation, content writing, and code assistance — to create an immersive neural network learning experience.
+Have a question, found a bug, or want to suggest a module?
+
+| Channel | Link |
+|---|---|
+| 🐛 Report a Bug | [Open an Issue](https://github.com/yourusername/neural-genesis/issues) |
+| 💡 Request a Feature | [Start a Discussion](https://github.com/yourusername/neural-genesis/discussions) |
+| ⭐ Show Support | Star this repo if Neural Genesis helped you learn! |
+
+---
+
+## 🙌 Acknowledgments
+
+| Contribution | Powered By |
+|---|---|
+| 🖼️ Visual Design & Imagery | AI-assisted image generation |
+| ✍️ Content & Explanations | AI-assisted technical writing |
+| 💻 Interactive Components | AI-assisted code generation |
+| 📈 Data Visualization | Plotly.js, Chart.js |
+| 🔢 Math Rendering | KaTeX, MathJax |
 
 <div align="center">
 
-**Neural Genesis** — *Making the mathematics of learning visible.*
+<br>
+
+<img src="https://img.shields.io/badge/Made_with-🧠_Neural_Genesis-1a1a2e?style=for-the-badge&labelColor=0a0a12&color=00FFFF" alt="Made with Neural Genesis"/>
+
+### *"Making the mathematics of learning visible."*
+
+<sub>⭐ If this project sparked an idea, consider giving it a star. ⭐</sub>
 
 </div>
