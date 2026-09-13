@@ -8,10 +8,12 @@
 Explore activation functions, live neuron simulations, and gradient flow analytics through an immersive, dark-themed Command Hub — built with modern web technologies and AI-assisted tooling.
 
 [![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Launch_App-00FFFF?style=for-the-badge&labelColor=1a1a2e)](https://activation-model-83tbjhtkdhhnpbry53kwxi.streamlit.app/)
+
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white)
 ![KaTeX](https://img.shields.io/badge/KaTeX-Math_Rendering-A855F7?style=flat-square)
+![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
 
 </div>
 
@@ -28,13 +30,17 @@ Explore activation functions, live neuron simulations, and gradient flow analyti
 - [Getting Started](#️-getting-started)
 - [Key Concepts Covered](#-key-concepts-covered)
 - [Built With AI Tools](#️-built-with-ai-tools)
+- [Roadmap](#-roadmap)
+- [Contributing](#-contributing)
 - [Credits](#-credits)
 
 ---
 
 ## 🎯 Overview
 
-**Neural Genesis** is a dark-themed, interactive learning platform designed to visualize and explain the core concepts behind neural networks and deep learning. Activation functions are the mathematical heart of every neural network — they introduce non-linearity, decide which neurons fire, and directly shape a model's ability to learn complex patterns in tasks like image recognition, NLP, and chatbots.
+**Neural Genesis** is a dark-themed, interactive learning platform designed to visualize and explain the core concepts behind neural networks and deep learning.
+
+Activation functions are the mathematical heart of every neural network — they introduce non-linearity, decide which neurons fire, and directly shape a model's ability to learn complex patterns in tasks like image recognition, NLP, and chatbots.
 
 Through six focused modules, Neural Genesis turns that theory into live simulations, interactive charts, and data-rich visualizations — all accessible from a sleek sidebar **Command Hub**.
 
@@ -104,13 +110,13 @@ A visual explainer for backpropagation and gradient movement, featuring a layere
 | **Charts** | Plotly.js / Chart.js |
 | **Math Rendering** | KaTeX / MathJax |
 | **Design** | Dark UI — cyan (`#00FFFF`) & purple (`#A855F7`) accent palette |
-| **Hosting** | Localhost (port 8501) |
+| **Hosting** | Streamlit Cloud / Localhost (port 8501) |
 
 ---
 
 ## 📁 Project Structure
 
-```bash
+```
 neural-genesis/
 ├── index.html
 ├── assets/
@@ -135,25 +141,30 @@ neural-genesis/
 
 ## ⚙️ Getting Started
 
-**1. Clone the repository**
+### Prerequisites
+- Node.js `v16+` (for the React/JS build)
+- Python `3.9+` (only if running the Streamlit version)
+
+### 1. Clone the repository
 ```bash
 git clone https://github.com/yourusername/neural-genesis.git
 cd neural-genesis
 ```
 
-**2. Install dependencies**
+### 2. Install dependencies
 ```bash
 npm install
 ```
 
-**3. Start the development server**
+### 3. Start the development server
 ```bash
 npm start
 ```
 
-*Or, if running the Streamlit version:*
+### Or, run the Streamlit version
 ```bash
-streamlit run app.py   # opens on port 8501
+pip install -r requirements.txt
+streamlit run app.py   # opens on http://localhost:8501
 ```
 
 ---
@@ -170,19 +181,47 @@ streamlit run app.py   # opens on port 8501
 
 ## 🤖 Built With AI Tools
 
-- **AI Image Generation** — neural brain visuals, gradient flow diagrams
-- **AI Content Writing** — module descriptions, mathematical explanations
-- **AI Code Assistance** — interactive components, chart rendering, slider logic
-- **Plotly / Chart.js** — live graph rendering
-- **MathJax / KaTeX** — mathematical formula display
+| Capability | Purpose |
+|---|---|
+| **AI Image Generation** | Neural brain visuals, gradient flow diagrams |
+| **AI Content Writing** | Module descriptions, mathematical explanations |
+| **AI Code Assistance** | Interactive components, chart rendering, slider logic |
+| **Plotly / Chart.js** | Live graph rendering |
+| **MathJax / KaTeX** | Mathematical formula display |
+
+---
+
+## 🧭 Roadmap
+
+- [ ] Add more activation functions (GELU, Mish, ELU)
+- [ ] Export simulator results as CSV/PNG
+- [ ] Mobile-responsive Command Hub layout
+- [ ] Dark/light theme toggle
+- [ ] Guided tutorial mode for beginners
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! To contribute:
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License** — see the `LICENSE` file for details.
 
 ---
 
 ## 🙌 Credits
 
 Built with the power of AI tools — image generation, content writing, and code assistance — to create an immersive neural network learning experience.
-
----
 
 <div align="center">
 
